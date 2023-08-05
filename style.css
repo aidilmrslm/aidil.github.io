@@ -228,7 +228,7 @@ section {
     .about-img .img-about
     {
         height: 100%;
-        width: 100%;
+        width: 105%;
         position: relative;
         border: 8px  solid white;
         box-shadow: .9rem .9rem 1rem var(--second-bg-color);
