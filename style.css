@@ -370,10 +370,23 @@ footer {
   width : 70vw;
   margin-top: 4rem;
 }
+
+.project img 
+{
+  width: 30vw;
+}
         }
+
+
+@media (max-width: 450px)
+{
+  html {
+    font-size: 50%;
+  }
+}
 
 
 .cr 
 {
-    font-size: 5px;
+    font-size: 1px;
 }
