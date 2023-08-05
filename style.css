@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root
+{
+    --bg-color: #1f242d;
+    --second-bg-color: #323945;
+    --text-color: #fff;
+    --main-color: #000;
+    --main-after: rgb(103, 245, 255) ;
+    --shadow-after: #333;
+    --shadow-color: #333;
+}
+
+html
+{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.btn
+{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 .5rem 1rem var(--shadow-color);
+    color: var(--text-color);
+}
+
+.btn:hover
+{
+    color: var(--main-color);
+    background: var(--text-color);
+    box-shadow: var(--second-bg-color);
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+.box {
+    width: 350px;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    background: #c5c5c5;
+    box-shadow: .0.7rem 1.3rem 0rem #000;
+  }
+  
+  .box1 {
+    margin-top: 10px;
+  }
+  
+  .content {
+    margin: 15px 2px;
+  }
+  
+  .image img {
+    height: auto;
+    width: 120px;
+    border-radius: 50%;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
+  
+  .title {
+    font-size: 0.7em;
+    background-color: rgb(164, 189, 183, 0.5);
+    width: 50px;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+  
+    display: block;
+    margin: 0px auto 10px;
+  }
+  
+  .name {
+    font-size: 1.25em;
+    font-weight: bolder;
+    letter-spacing: 1px;
+  }
+  
+  .ikatan_pelajar {
+    font-size: 0.65em;
+    font-weight: bolder;
+    color: gray;
+    margin-top: -2px;
+  }
+  
+  .pelajar_discription {
+    font-size: 0.8em;
+    color: rgb(255, 255, 255);
+    margin: 10px 30px 20px;
+  }
+  
+  .icons {
+    margin: 0px 30px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .icons button {
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    font-size: 1em;
+  }
+  
+  ion-icon:hover {
+    color: #999999;
+    transition: 0.5s;
+  }
+  
+  button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bolder;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 20px 30px 0px;
+  }
+  
+  .button .message {
+    background: #969696;
+    border: 2px solid #000;
+  }
+  
+  .button .message:hover {
+      background: #000000;
+      border: 2px solid #ededed;
+      color: #ededed;
+    }
+  
+  .button .connect {
+    background-color: #000;
+    border: 2px solid #969696;
+    color: #ededed;
+    border: none;
+  }
+  
+  .button .connect:hover {
+      background-color: #969696;
+      color: #000;
+      border: none;
+    }
+    
+  button.connect:hover {
+    letter-spacing: 1px;
+    transition: 0.5s;
+  }
+  button.message:hover {
+    letter-spacing: 1px;
+    transition: 0.5s;
+    background: rgba(88, 164, 151, 0.5);
+  }
+  /* Content-1:End */
+
+	/* About */
+
+    .about
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background: #999999;
+    }
+
+    .about-img .img-about
+    {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        border: 8px  solid white;
+        box-shadow: .9rem .9rem 1rem var(--second-bg-color);
+    }
+
+    .heading 
+    {
+        text-align: center;
+        font-size: 4.5rem;
+    }
+  
+    .about-content h2
+    {
+        text-align: left;
+        line-height: 1.2;
+    }
+
+    .about-content h3
+    {
+        font-size: 2.6rem;
+    }
+
+    .about-content p
+    {
+        font-size: 1.6rem;
+        margin: 2rem 0 3rem;
+    }
+
+    /* End About */
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project img {
+    width: 25vw;
+    border: 2px solid var(--shadow-after);
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px var(--bg-color);
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+.project img:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+      /* Contact */
+.contact
+{
+    background: var(--shadow-after);
+}
+      
+      .contact h2
+      {
+        margin-bottom: 3rem;
+      }
+      
+      .contact form 
+      {
+        max-width: 70rem;
+        margin: 1rem auto;
+        text-align: center;
+        margin-bottom: 3rem;;
+      }
+      
+      .contact form .input-box
+      {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      
+      .contact form .input-box input,
+      .contact form textarea
+      {
+        width: 100%;
+        padding: 1.5rem;
+        font-size: 1.6rem;
+        color: var(--text-color);
+        background: var(--second-bg-color);
+        border-radius: .8rem;
+        margin: .7rem 0;
+      }
+      
+      .contact form .input-box input-box{
+        margin: 49%;
+      }
+      
+      .contact form textarea
+      {
+        resize: none;
+      }
+      
+      .contact form .btn-about{
+        margin-top: 2rem;
+        cursor: pointer;
+      }
+      
+      /*end*/
+
+      @media (max-width: 1200px) {
+        html {
+          font-size: 55%;
+        }
+      }
+
+      @media (max-width: 991px) {
+        .contact{
+            min-height: auto;
+          }
+          
+          .footer {
+            padding: 2rem 3%;
+          }
+        }
+        
+        @media (max-width: 768px) {
+            .about
+{
+  flex-direction: column-reverse;
+}
+
+.about img{
+  width : 70vw;
+  margin-top: 4rem;
+}
+
+.project img 
+{
+  width: 30vw;
+}
+        }
+
+
+.cr 
+{
+    font-size: 5px;
+}
+
+@media (max-width: 450px)
+{
+  html {
+    font-size: 50%;
+  }
+}
