@@ -53,7 +53,7 @@ body {
 
 header {
   background-color: rgb(0, 0, 0);
-  color: #fff;
+  color: #000000;
   padding: 1rem;
   text-align: center;
 }
@@ -92,7 +92,6 @@ section {
     padding: 10px;
     text-align: center;
     background: #c5c5c5;
-    box-shadow: .0.7rem 1.3rem 0rem #000;
   }
   
   .box1 {
@@ -154,12 +153,17 @@ section {
   }
   
   .icons button {
+    color: #000;
     width: fit-content;
     height: fit-content;
     border: none;
     font-size: 1em;
   }
   
+  ion-icon {
+    color: #000;
+  }
+
   ion-icon:hover {
     color: #999999;
     transition: 0.5s;
@@ -232,6 +236,7 @@ section {
         position: relative;
         border: 8px  solid white;
         box-shadow: .9rem .9rem 1rem var(--second-bg-color);
+        left: -1rem;
     }
 
     .heading 
@@ -366,8 +371,17 @@ footer {
   flex-direction: column-reverse;
 }
 
+.box{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+}
+
+
+
 .about img{
-  width : 70vw;
+  width : 75vw;
   margin-top: 4rem;
 }
 
@@ -388,4 +402,10 @@ footer {
   html {
     font-size: 50%;
   }
+
+  .button .connect{
+    margin-left: 1rem;
+  }
 }
+
+
